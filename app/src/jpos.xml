@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+    "jpos/res/jcl.dtd">
+<JposEntries>
+    <!--Saved by JavaPOS jpos.config/loader (JCL) version 2.2.0 on 2010/3/11 下午 10:16-->
+
+    <JposEntry logicalName="Z6170">
+        <creation factoryClass="com.zbt.jpos.ZbtJposServiceInstanceFactory"
+            serviceClass="com.zbt.jpos.ScannerService" />
+        <vendor name="" url="" />
+        <jpos category="Scanner" version="1.7" />
+        <product name="Scanner" description="Scanners" url="" />
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="deviceBus" type="String" value="RS232" />
+        <prop name="baudRate" type="String" value="9600" />
+        <prop name="parity" type="String" value="None" />
+        <prop name="portName" type="String" value="/dev/ttyS0" />
+        <prop name="flowControl" type="String" value="None" />
+        <prop name="stopBits" type="String" value="1" />
+        <prop name="dataBits" type="String" value="8" />
+    </JposEntry>
+
+
+    <JposEntry logicalName="Z6182">
+        <creation factoryClass="com.zbt.jpos.ZbtJposServiceInstanceFactory"
+            serviceClass="com.zbt.jpos.ScannerService" />
+        <vendor name="" url="" />
+        <jpos category="Scanner" version="1.7" />
+        <product name="Scanner" description="Scanners" url="" />
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="deviceBus" type="String" value="USB" />
+        <prop name="portName" type="String" value="/dev/ttyS0" />
+    </JposEntry>
+
+
+    <JposEntry logicalName="defaultScanner1D">
+        <creation factoryClass="com.zbt.jpos.ZbtJposServiceInstanceFactory"
+            serviceClass="com.zbt.jpos.ScannerService" />
+        <vendor name="" url="" />
+        <jpos category="Scanner" version="1.7" />
+        <product name="Scanner" description="Scanners" url="" />
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="deviceType" type="String" value="1D" />
+        <prop name="deviceBus" type="String" value="RS232" />
+        <prop name="baudRate" type="String" value="115200" />
+        <prop name="parity" type="String" value="None" />
+        <prop name="portName" type="String" value="COM5" />
+        <prop name="flowControl" type="String" value="None" />
+        <prop name="stopBits" type="String" value="1" />
+        <prop name="dataBits" type="String" value="8" />
+    </JposEntry>
+
+    <JposEntry logicalName="defaultScanner2D">
+        <creation factoryClass="com.zbt.jpos.ZbtJposServiceInstanceFactory"
+            serviceClass="com.zbt.jpos.ScannerService" />
+        <vendor name="" url="" />
+        <jpos category="Scanner" version="1.7" />
+        <product name="Scanner" description="Scanners" url="" />
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="deviceType" type="String" value="2D" />
+        <prop name="deviceBus" type="String" value="RS232" />
+        <prop name="baudRate" type="String" value="115200" />
+        <prop name="parity" type="String" value="None" />
+        <prop name="portName" type="String" value="COM8" />
+        <prop name="flowControl" type="String" value="None" />
+        <prop name="stopBits" type="String" value="1" />
+        <prop name="dataBits" type="String" value="8" />
+    </JposEntry>
+
+</JposEntries>
